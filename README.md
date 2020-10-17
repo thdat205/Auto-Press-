@@ -1,0 +1,2 @@
+# Auto-Press-
+local vim = game:service'VirtualInputManager'  while wait(1) do        vim:SendKeyEvent(true, "E", false, game) end
